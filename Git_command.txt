@@ -46,3 +46,6 @@ git log -p (will the the descriptive changes we have commited)
 git log --oneline  (to get one line details of commit)
 git show <checksum of specific commit>         (will provide details of specific commit)
 
+
+#################### Faltu details #################################
+
