@@ -14,3 +14,6 @@ git clone <repository_link>
  5. git commit -m "Initial commit"  (make the commit to staging)
  6. git remote add origin <http url of the git repository created in point 1 >     (to make connection with git repository)
  7. git push    (pushing the code to repository)
+
+# To pull the changes from git repository
+git pull
