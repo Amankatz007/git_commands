@@ -49,8 +49,9 @@ git show <checksum of specific version>         (will provide details of specifi
 git checkout <checksum of specific version>      (will take you to specific version but only for check)
 git checkout main              (will bring you to the current working version)
 
-################################# FALTU version ###########################
-
+# Revert to specific version
+git revert <checksum of specific version>    (will revert to specific version but need to resolve the file conflict and then need to push)
+git push   (needed git push to complete the revert to specific version)
 
 
 
