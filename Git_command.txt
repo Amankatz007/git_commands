@@ -42,5 +42,7 @@ git restore --staged . (it will only help when you have added the files but not 
 
 # To go back to previous version or check the commit history
 git log   (to check all the commits, will provide the details of commit and checksum)
+git log -p (will the the descriptive changes we have commited)
+git log --oneline  (to get one line details of commit)
 git show <checksum of specific commit>         (will provide details of specific commit)
 
