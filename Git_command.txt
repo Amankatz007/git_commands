@@ -1,0 +1,9 @@
+# To clone a repository to a local folder
+git clone <repository_link>
+
+
+# To copy some other people public repository to our repository
+--- Use the fork option in their repository
+
+
+ 
