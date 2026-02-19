@@ -41,8 +41,16 @@ git restore .   (it will make the files as they were before you commit)
 git restore --staged . (it will only help when you have added the files but not commited)
 
 # To go back to previous version or check the commit history
-git log   (to check all the commits, will provide the details of commit and checksum)
-git log -p (will the the descriptive changes we have commited)
-git log --oneline  (to get one line details of commit)
-git show <checksum of specific commit>         (will provide details of specific commit)
+git log   (to list all the commits, will provide the details of commit and checksum)
+git log -p (will provide the descriptive list we have commited)
+git log --oneline  (to get oneliner list of commit)
+
+git show <checksum of specific version>         (will provide details of specific version)
+git checkout <checksum of specific version>      (will take you to specific version but only for check)
+git checkout main              (will bring you to the current working version)
+
+################################# FALTU version ###########################
+
+
+
 
