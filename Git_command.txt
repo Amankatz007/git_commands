@@ -35,3 +35,12 @@ git diff --cached (to check the changes after adding the files but not commited)
 
 # To rename a file
 git mv <file_name> <new_file_name>
+
+# To go back in file before the commit
+git restore .   (it will make the files as they were before you commit)
+git restore --staged . (it will only help when you have added the files but not commited)
+
+# To go back to previous version or check the commit history
+git log   (to check all the commits, will provide the details of commit and checksum)
+git show <checksum of specific commit>         (will provide details of specific commit)
+
