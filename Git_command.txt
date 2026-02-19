@@ -1,9 +1,16 @@
+##########################  We are using the GitHub as public cloud git provider ##############################
+
 # To clone a repository to a local folder
 git clone <repository_link>
-
 
 # To copy some other people public repository to our repository
 --- Use the fork option in their repository
 
-
- 
+# To copy your local folder to git and make a repository from cmd
+ 1. Make a repository in GitHub (web interface)
+ 2. Go to your folder where you have files to upload and use the below commands
+ 3. git init     (to initialize the git in particular folder)
+ 4. git add .   (add all the files to staging git)
+ 5. git commit -m "Initial commit"  (make the commit to staging)
+ 6. git remote add origin <http url of the git repository created in point 1 >     (to make connection with git repository)
+ 7. git push    (pushing the code to repository)
