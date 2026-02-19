@@ -1,5 +1,14 @@
 ##########################  We are using the GitHub as public cloud git provider ##############################
 
+######## Basic command always used ###########
+############################################## 
+git add .                                     - To add any changes
+git commit -m "<abc>"                         - To commit any changes
+git push                                      - To push any changes to repository
+git status                                    - To check and changes
+git pull                                      - To pull any changes from repository
+##############################################
+
 # To clone a repository to a local folder
 git clone <repository_link>
 
@@ -18,3 +27,11 @@ git clone <repository_link>
  
 # To pull the changes from git repository
 git pull
+
+# To get the updates on the files or repository 
+git status    (very helpful to get the next suggestion steps and what is been changed)
+git diff      (to track what changes have been made in the files)
+git diff --cached (to check the changes after adding the files but not commited)
+
+# To rename a file
+git mv <file_name> <new_file_name>
